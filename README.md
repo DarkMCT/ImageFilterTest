@@ -1,8 +1,33 @@
 
 # Filter Tester
-                                                     
-
 Este projeto possibilita a aplicação simples de filtros (Kernels) em imagens.
+
+Ex:
+
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/DarkMCT/host_images/blob/master/filter_tester_images/original.png">
+</p>
+
+    Após aplicar o seguinte filtro as 3 camadas da imagem:
+
+  ```
+        0.111111111, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0.111111111, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0.111111111, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0.111111111, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0.111111111, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0.111111111, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0.111111111, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0.111111111, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0.111111111;
+  ```
+
+<p align="center">
+<img width="460" height="300" src="https://github.com/DarkMCT/host_images/blob/master/filter_tester_images/motion_filter.png">
+</p>
+
+## Como configurar
 
 A configuração é realizada através do arquivo de configuação: <path>/configuration/config.cfg
   Neste arquivo, deve conter os seguintes variáveis:
